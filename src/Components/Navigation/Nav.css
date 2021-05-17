@@ -1,7 +1,7 @@
 #nav {
     width: 100%;
     background-color: var(--github-nav-bg);
-    padding: 1.6rem 3rem;
+    padding: 1.4rem 3rem;
     display: grid;
     grid-template-columns: 1fr max-content;
     align-items: center;
