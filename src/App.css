@@ -16,6 +16,10 @@ body {
   background-color: var(--github-major-bg);
 }
 
+::selection {
+  background-color: var(--github-blue);
+  color: var(--github-major-bg)
+}
 /* 
 font-family: 'Montserrat', sans-serif;
 font-family: 'Poppins', sans-serif;
