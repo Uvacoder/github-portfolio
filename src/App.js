@@ -1,6 +1,6 @@
 import './App.css';
-import Nav from "./Components/Navigation/Nav.jsx";
-import SubNavbar from "./Components/SubNavbar/SubNavbar.jsx";
+import Nav from "./Components/Navigation/MainNavbar/Nav.jsx";
+import SubNavbar from "./Components/Navigation/SubNavbar/SubNavbar.jsx";
 
 function App() {
   return (
