@@ -1,0 +1,46 @@
+.top {
+    text-align: center;
+    position: relative;
+}
+
+.top-image {
+    border: 2px solid var(--github-utils-bg);
+    border-radius: 50%;
+    width: 100%;
+    position: relative;
+}
+.top-abs {
+    background-color: var(--github-major-bg);
+    padding: 1.2rem 1rem;
+    position: absolute;
+    bottom: 15%;
+    right: 17%;
+    z-index: 100;
+    box-shadow: 0rem 1rem 1rem rgba(5, 5, 5, 0.3);
+    line-height: 1;
+    border: 1px solid var(--github-utils-bg);
+    border-radius: 50px;
+    font-size: 1.6rem;
+    display: flex;
+    gap: 0.7rem;
+    cursor: pointer;
+    align-items: center;
+    transform: translateX(100%);
+}
+.top-abs > p {
+    display: inline-block;
+    cursor: pointer;
+}
+.top-abs > span:hover {
+    color: var(--github-blue);
+}
+.top-abs > span {
+    font-size: 1.2rem;
+    color: var(--github-secondary-text);
+    display: none;
+    cursor: pointer;
+}
+
+.top-abs:hover > span {
+    display: inherit;
+}
