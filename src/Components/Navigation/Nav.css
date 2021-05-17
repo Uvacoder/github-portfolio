@@ -17,6 +17,8 @@
     font-size: 3.3rem;
 }
 
+/************ STYLING NAV INPUT ************/
+
 .nav-input {
     border: none;
     width: 20vw;
@@ -26,7 +28,26 @@
     border: 1px solid var(--github-outine);
     border-radius: 0.6rem;
     transition: all 0.4s;
+    grid-row: 1/2;
+    grid-column: 1/-1;
 }
+
+.nav-slash {
+    grid-column: 2/-1;
+    grid-row: 1/2;
+    padding: 0.4rem 0.58rem;
+    line-height: 1;
+    margin-right: 0.8rem;
+    border-radius: 0.4rem;
+    border: 1px solid #3f3f3f;
+}
+
+.nav-search {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    align-items: center;
+}
+
 .nav-input::placeholder {
     color: var(--github-primary-text);
 }
@@ -35,15 +56,34 @@
     color: var(--github-secondary-text);
     text-transform: capitalize;
 }
+
+/* GIVING BLUE BORDER ON CLICK */
+
 .nav-input:active,
 .nav-input:focus,
 .nav-input:focus-visible,
 .nav-input:focus-within {
     outline: none;
     width: 35vw;
-    border: 1.5px solid var(--github-blue);
+    border: 1.3px solid var(--github-blue);
 }
 
+.nav-input:active ~ .nav-slash,
+.nav-input:focus  ~ .nav-slash,
+.nav-input:focus-visible ~ .nav-slash,
+.nav-input:focus-within ~ .nav-slash {
+    display: none;
+}
+
+/* ON CLICK MAKING PLACEHOLDER LITTLE DARK */
+
+.nav-input:active::placeholder,
+.nav-input:focus::placeholder,
+.nav-input:focus-visible::placeholder,
+.nav-input:focus-within::placeholder {
+    color: var(--github-secondary-text);
+}
+/************ NAVIAGATION  ************/
 .nav-list {
     list-style: none;
     font-weight: 600;

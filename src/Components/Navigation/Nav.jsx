@@ -25,6 +25,7 @@ class Nav extends React.Component {
             className="nav-input"
             placeholder="Search or jump to..."
           />
+          <div className="nav-slash">/</div>
           </div>
           <div className="nav-utils">
             <ul className="nav-list">
