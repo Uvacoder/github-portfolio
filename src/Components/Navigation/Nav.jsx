@@ -1,11 +1,19 @@
+// DEPENDENCIENS IMPORT
 import React from "react";
+
+// CSS IMPORT
 import "./Nav.css";
+
+// IMAGES IMPORT
 import img1 from "./img/img.jpg";
+
+// ICONS IMPORT
 import { ImGithub } from "react-icons/im";
 import { FaRegBell } from "react-icons/fa";
 import { AiOutlineCaretDown } from "react-icons/ai";
 import { HiOutlinePlus } from "react-icons/hi";
 
+// CLASS DEFINITON
 class Nav extends React.Component {
   constructor(props) {
     super(props);
@@ -17,8 +25,11 @@ class Nav extends React.Component {
   render() {
     return (
       <nav id="nav">
+          {/* FIRST SECTION */}
         <div className="nav-main">
+            {/* LOGO */}
           <ImGithub className="nav-logo" />
+          {/* SEARCH BAR */}
           <div className="nav-search">
           <input
             type="text"
@@ -27,6 +38,7 @@ class Nav extends React.Component {
           />
           <div className="nav-slash">/</div>
           </div>
+          {/* NAVIGATION PRIMARY */}
           <div className="nav-utils">
             <ul className="nav-list">
               {this.state.navListItems.map((item) => {
@@ -35,12 +47,14 @@ class Nav extends React.Component {
             </ul>
           </div>
         </div>
+        {/* SECOND SECTION */}
         <div className="nav-sec">
+            {/* NAVIGATION SECONDARY */}
           <div className="nav-sec-grp">
-            <FaRegBell className="nav-icon"/>
+            <FaRegBell className="nav-icon nav-icon-bell"/>
           </div>
           <div className="nav-sec-grp">
-            <HiOutlinePlus className="nav-icon" />
+            <HiOutlinePlus className="nav-icon nav-icon-plus" />
             <AiOutlineCaretDown className="nav-icon"/>
           </div>
           <div className="nav-sec-grp">
@@ -53,4 +67,5 @@ class Nav extends React.Component {
   }
 }
 
+// EXPORTING CLASS
 export default Nav;

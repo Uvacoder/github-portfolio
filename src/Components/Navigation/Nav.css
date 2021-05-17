@@ -4,6 +4,7 @@
     padding: 1.6rem 3rem;
     display: grid;
     grid-template-columns: 1fr max-content;
+    align-items: center;
     color: var(--github-nav-text);
 }
 
@@ -14,7 +15,7 @@
 }
 
 .nav-logo {
-    font-size: 3.3rem;
+    font-size: 3.2rem;
 }
 
 /************ STYLING NAV INPUT ************/
@@ -22,8 +23,8 @@
 .nav-input {
     border: none;
     width: 20vw;
-    height: 2.9rem;
-    padding: 0.8rem;
+    height: 3.1rem;
+    padding: 1rem;
     background-color: var(--github-major-bg);
     border: 1px solid var(--github-outine);
     border-radius: 0.6rem;
@@ -57,14 +58,14 @@
     text-transform: capitalize;
 }
 
-/* GIVING BLUE BORDER ON CLICK */
+/************ GIVING BLUE BORDER ON CLICK ************/
 
 .nav-input:active,
 .nav-input:focus,
 .nav-input:focus-visible,
 .nav-input:focus-within {
     outline: none;
-    width: 35vw;
+    width: 40vw;
     border: 1.3px solid var(--github-blue);
 }
 
@@ -75,7 +76,7 @@
     display: none;
 }
 
-/* ON CLICK MAKING PLACEHOLDER LITTLE DARK */
+/************ ON CLICK MAKING PLACEHOLDER LITTLE DARK ************/
 
 .nav-input:active::placeholder,
 .nav-input:focus::placeholder,
@@ -83,21 +84,59 @@
 .nav-input:focus-within::placeholder {
     color: var(--github-secondary-text);
 }
+
 /************ NAVIAGATION  ************/
+
 .nav-list {
     list-style: none;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     text-transform: capitalize;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
     letter-spacing: 0.05rem;
     user-select: none;
     cursor: context-menu;
+}
+
+.nav-list-item {
+    transition: all 0.2s;
+}
+
+.nav-list-item:hover {
+    color: var(--github-secondary-text);
 }
 
 .nav-acc-img {
     width: 2.2rem;
     height: 2.2rem;
     border-radius: 50%;
+}
+
+/************ NAVIAGATION SECONDARY  ************/
+
+.nav-sec {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    font-size: 1rem;
+}
+
+.nav-sec-grp {
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    transition: all 0.2s;
+}
+
+.nav-sec-grp:hover {
+    color: var(--github-secondary-text);
+}
+
+.nav-icon-bell {
+    font-size: 1.6rem;
+}
+
+.nav-icon-plus {
+    font-size: 1.9rem;
 }
