@@ -1,6 +1,9 @@
 // IMPORTING CSS
 import "./SubNavbar.css";
 
+// IMPORT IMAGE
+import img1 from "./img/img.jpg";
+
 // IMPORTING ICONS
 import { HiOutlineBookOpen, HiOutlineCube } from "react-icons/hi";
 import { BiBookBookmark } from "react-icons/bi";
@@ -10,7 +13,10 @@ import { AiOutlineProject } from "react-icons/ai";
 const SubNavbar = () => {
   return (
     <div className="subnav">
-      <div className="subnav-main"></div>
+      <div className="subnav-main">
+        <img src={img1} alt="Himanshu Khaitan" className="subnav-main-img"/>
+        <h3 className="subnav-main-text">himakhaitan</h3>
+      </div>
       <div className="subnav-sec">
         <div className="subnav-grp active">
           <a href="/" className="subnav-link">

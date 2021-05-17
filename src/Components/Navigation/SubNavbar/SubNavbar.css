@@ -5,6 +5,28 @@
   border-bottom: 1.5px solid var(--github-outine);
 }
 
+.subnav-main {
+  padding-left: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+/* Temporary */
+.subnav-main > * {
+  display: none;
+}
+
+.subnav-main-img {
+  width:3.5rem;
+  height:3.5rem;
+  border-radius: 50%;
+}
+
+.subnav-main-text {
+  color: var(--github-primary-text);
+  letter-spacing: 0.05rem;
+  font-size: 1.3rem;
+}
 .subnav-sec {
   display: flex;
   align-items: flex-end;
