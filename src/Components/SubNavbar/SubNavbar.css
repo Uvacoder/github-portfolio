@@ -1,6 +1,6 @@
 .subnav {
   display: grid;
-  grid-template-columns: 28% 1fr;
+  grid-template-columns: 26% 1fr;
   margin-top: 1.2rem;
   border-bottom: 1.5px solid var(--github-outine);
 }
@@ -10,15 +10,15 @@
   align-items: flex-end;
 }
 .subnav-grp {
-  
   padding: 2.6rem 2.3rem 1.4rem 2.1rem;
   transition: all 0.2s;
   border-bottom: 2px solid transparent;
 }
 
 .subnav-link {
-    display: flex;
-    gap: 1rem;
+  display: flex;
+  align-items: flex-end;
+  gap: 1rem;
 }
 
 .subnav-grp:hover {
@@ -48,9 +48,15 @@
 }
 
 .active > a > .subnav--icon {
-    color: var(--github-primary-text);
+  color: var(--github-primary-text);
 }
 
 .active > a {
-    color: var(--github-primary-text);
-  }
+  color: var(--github-primary-text);
+}
+
+.subnav-num {
+    background-color: var(--github-utils-bg);
+    padding: 0.3rem 1rem;
+    border-radius: 12px;
+}

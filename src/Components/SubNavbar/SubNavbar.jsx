@@ -26,6 +26,7 @@ const SubNavbar = () => {
         
          
             <h4 className="subnav-items">repositories</h4>
+            <div className="subnav-num">34</div>
           </a>
         </div>
         <div className="subnav-grp">
