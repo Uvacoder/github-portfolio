@@ -28,7 +28,7 @@ class Nav extends React.Component {
           {/* FIRST SECTION */}
         <div className="nav-main">
             {/* LOGO */}
-          <ImGithub className="nav-logo" />
+       <a href="/" className="logo-link">   <ImGithub className="nav-logo" /></a>
           {/* SEARCH BAR */}
           <div className="nav-search">
           <input
