@@ -1,46 +1,56 @@
 .subnav {
-    display: grid;
-    grid-template-columns: 26% 1fr;
-    margin-top: 2rem;
-    border-bottom: 1.5px solid var(--github-outine);
+  display: grid;
+  grid-template-columns: 28% 1fr;
+  margin-top: 1.6rem;
+  border-bottom: 1.5px solid var(--github-outine);
 }
 
 .subnav-sec {
-    display: flex;
-    align-items: flex-end;
-    color: var(--github-secondary-text);
+  display: flex;
+  align-items: flex-end;
 }
 .subnav-grp {
-   display: flex;
-   gap: 1rem;
-    padding: 2.6rem 2.1rem 1rem;
-    transition: all 0.2s;
-    border-bottom: 2px solid transparent;
+  
+  padding: 2.6rem 2.3rem 1.4rem 2.1rem;
+  transition: all 0.2s;
+  border-bottom: 2px solid transparent;
+}
+
+.subnav-link {
+    display: flex;
+    gap: 1rem;
 }
 
 .subnav-grp:hover {
-    border-bottom: 2px solid var(--github-secondary-text);
+  border-bottom: 2px solid var(--github-secondary-text);
 }
 
 .subnav-grp > a {
-    color: var(--github-secondary-text);
+  color: var(--github-secondary-text);
 }
 .subnav-items {
-    font-weight: 400;
-    text-transform: capitalize;
-    font-size: 1.3rem;
-    font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  font-family: "Poppins", sans-serif;
 }
 .subnav--icon {
-    color: var(--github-icon);
-    font-size: 1.8rem;
+  color: var(--github-icon);
+  font-size: 1.8rem;
 }
 
 .subnav-grp:hover > a > .subnav-items {
-    color: var(--github-primary-text);
+  color: var(--github-primary-text);
 }
 
 .active {
-    color: var(--github-primary-text) !important;
-    border-bottom: 2px solid var(--github-orange) !important;
+  border-bottom: 2px solid var(--github-orange) !important;
 }
+
+.active > a > .subnav--icon {
+    color: var(--github-primary-text);
+}
+
+.active > a {
+    color: var(--github-primary-text);
+  }
