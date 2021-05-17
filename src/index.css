@@ -2,7 +2,7 @@
 
 
 /* GITHUB DARK THEME */
-/* :root {
+:root {
   --github-major-bg: #0d1117;
   --github-nav-bg: #161b22;
   --github-utils-bg: #262c32;
@@ -14,7 +14,8 @@
   --github-orange: #e87a66;
   --github-pro: #a371f7;
   --github-blue: #58a6ff;
-} */
+  --github-outine: #21262d;
+}
 /* GITHUB LIGHT THEME */
 /* :root {
   --github-major-bg: #ffffff;
@@ -26,7 +27,7 @@
   --github-nav-text: #ffffff;
 } */
 /* GITHUB DARK DIMMED THEME */
-:root {
+/* :root {
   --github-major-bg: #22272e;
   --github-nav-bg: #2d333b;
   --github-utils-bg: #333942;
@@ -34,5 +35,5 @@
   --github-icon: #636e7b;
   --github-secondary-text: #73808d;
   --github-nav-text: #cdd9e5;
-}
+} */
 

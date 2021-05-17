@@ -1,0 +1,63 @@
+#nav {
+    width: 100%;
+    background-color: var(--github-nav-bg);
+    padding: 1.6rem 3rem;
+    display: grid;
+    grid-template-columns: 1fr max-content;
+    color: var(--github-nav-text);
+}
+
+.nav-main {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.nav-logo {
+    font-size: 3.3rem;
+}
+
+.nav-input {
+    border: none;
+    width: 20vw;
+    height: 2.9rem;
+    padding: 0.8rem;
+    background-color: var(--github-major-bg);
+    border: 1px solid var(--github-outine);
+    border-radius: 0.6rem;
+    transition: all 0.4s;
+}
+.nav-input::placeholder {
+    color: var(--github-primary-text);
+}
+
+.nav-input:not(:placeholder-shown)  {
+    color: var(--github-secondary-text);
+    text-transform: capitalize;
+}
+.nav-input:active,
+.nav-input:focus,
+.nav-input:focus-visible,
+.nav-input:focus-within {
+    outline: none;
+    width: 35vw;
+    border: 1.5px solid var(--github-blue);
+}
+
+.nav-list {
+    list-style: none;
+    font-weight: 600;
+    font-size: 1.4rem;
+    text-transform: capitalize;
+    display: flex;
+    gap: 2rem;
+    letter-spacing: 0.05rem;
+    user-select: none;
+    cursor: context-menu;
+}
+
+.nav-acc-img {
+    width: 2.2rem;
+    height: 2.2rem;
+    border-radius: 50%;
+}
