@@ -1,7 +1,38 @@
-*,
-*::before,
-*::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Poppins:ital,wght@0,300;0,500;0,600;1,400&family=Space+Mono&display=swap");
+
+
+/* GITHUB DARK THEME */
+/* :root {
+  --github-major-bg: #0d1117;
+  --github-nav-bg: #161b22;
+  --github-utils-bg: #262c32;
+  --github-primary-text: #c9d1d9;
+  --github-secondary-text: #8b949e;
+  --github-icon: #6e7681;
+  --github-nav-text: #f0f6fc;
+  --github-green: #3fb950;
+  --github-orange: #e87a66;
+  --github-pro: #a371f7;
+  --github-blue: #58a6ff;
+} */
+/* GITHUB LIGHT THEME */
+/* :root {
+  --github-major-bg: #ffffff;
+  --github-nav-bg: #24292e;
+  --github-utils-bg: #e8eaec;
+  --github-primary-text: #24292e;
+  --github-icon: #959da5;
+  --github-secondary-text: #24292e;
+  --github-nav-text: #ffffff;
+} */
+/* GITHUB DARK DIMMED THEME */
+:root {
+  --github-major-bg: #22272e;
+  --github-nav-bg: #2d333b;
+  --github-utils-bg: #333942;
+  --github-primary-text: #adbac7;
+  --github-icon: #636e7b;
+  --github-secondary-text: #73808d;
+  --github-nav-text: #cdd9e5;
 }
+
