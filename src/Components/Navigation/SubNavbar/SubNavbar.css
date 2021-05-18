@@ -1,6 +1,6 @@
 .subnav {
   display: grid;
-  grid-template-columns: 26% 1fr;
+  grid-template-columns: 27% 1fr;
   margin-top: 1.6rem;
   border-bottom: 1.5px solid var(--github-outine);
 }
