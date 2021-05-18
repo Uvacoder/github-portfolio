@@ -1,0 +1,27 @@
+.highlight {
+    margin-top: 2rem;
+}
+
+.highlight-head {
+    font-weight: 600;
+    font-size: 1.6rem;
+    color: var(--github-primary-text);
+}
+
+.highlight-content {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    margin-top: 1.4rem;
+}
+
+.pro {
+    display: inline-block;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    line-height: 1;
+    color: var(--github-pro);
+    padding: 0.2rem 0.7rem;
+    border-radius: 30px;
+    border: 1.5px solid var(--github-pro);
+}
