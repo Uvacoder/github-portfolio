@@ -1,6 +1,7 @@
 // COMPONENTS IMPORTS
 import Sidebar from "../Sidebar/Sidebar";
 import Home from "./Routes/Home/Home";
+import Languages from "./Routes/Languages/Languages";
 import Container from "./Utils/Container.jsx";
 
 // MoDULE IMPORTS
@@ -18,6 +19,7 @@ const Main = () => {
         <Container>
         <Switch>
           <Route path="/" component={Home} exact></Route>
+          <Route path="/languages" component={Languages} exact></Route>
         </Switch>
         </Container>
       </Router>
