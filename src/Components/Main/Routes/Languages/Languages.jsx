@@ -2,7 +2,7 @@ import React from "react";
 import "./Languages.css";
 
 import Line from "../../Utils/Line";
-import img1 from "./img/a.jpg";
+import img1 from "./img/b.jpg";
 
 const knownLanguage = [
   {
