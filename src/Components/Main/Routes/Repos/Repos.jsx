@@ -1,7 +1,6 @@
 import React from "react";
 import "./Repos.css";
-import Design from "../../Utils/Design/Design";
-import img1 from "./5084996.jpg";
+import img1 from "./img/4498903.jpg";
 
 class Repo extends React.Component {
   constructor(props) {
@@ -12,10 +11,9 @@ class Repo extends React.Component {
   render() {
     return (
       <div className="repos">
-          <div className="repo-img">
+        <div className="repo-img">
               <img src={img1} alt="" className="repo-image"/>
           </div>
-        <Design num="440" />
       </div>
     );
   }

@@ -1,6 +1,7 @@
 .repo-image {
     width: 100%;
     margin-bottom: 3rem;
+    filter:grayscale(20%);
 }
 .repo {
     width: 100%;
