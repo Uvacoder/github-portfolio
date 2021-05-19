@@ -24,7 +24,7 @@ const Bottom = () => {
       <div className="bottom-stats">
         <div className="b-stats-element b-after">
           <IoPeopleOutline className="bottom-icon" />
-          <p>11</p>
+          <p>12</p>
           <h6>followers</h6>
         </div>
         <div className="b-stats-element b-after">

@@ -14,39 +14,36 @@ const SubNavbar = () => {
   return (
     <div className="subnav">
       <div className="subnav-main">
-        <img src={img1} alt="Himanshu Khaitan" className="subnav-main-img"/>
+        <img src={img1} alt="Himanshu Khaitan" className="subnav-main-img" />
         <h3 className="subnav-main-text">himakhaitan</h3>
       </div>
       <div className="subnav-sec">
         <div className="subnav-grp active">
           <a href="/" className="subnav-link">
             <HiOutlineBookOpen className="subnav--icon" />
-         
-         
+
             <h4 className="subnav-items">overview</h4>
           </a>
         </div>
         <div className="subnav-grp">
-          <a href="/" className="subnav-link">
+          <a href="/repositories" className="subnav-link">
             <BiBookBookmark className="subnav--icon" />
-        
-         
+
             <h4 className="subnav-items">repositories</h4>
             <div className="subnav-num">34</div>
           </a>
         </div>
         <div className="subnav-grp">
-          <a href="/" className="subnav-link">
+          <a href="/languages" className="subnav-link">
             <AiOutlineProject className="subnav--icon" />
-          
-          
+
             <h4 className="subnav-items">languages</h4>
           </a>
         </div>
         <div className="subnav-grp">
-          <a href="/" className="subnav-link">
+          <a href="/contact" className="subnav-link">
             <HiOutlineCube className="subnav--icon" />
-        
+
             <h4 className="subnav-items">contact me</h4>
           </a>
         </div>

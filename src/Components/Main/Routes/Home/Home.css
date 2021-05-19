@@ -1,0 +1,74 @@
+.home {
+    width: 100%;
+}
+
+.homa-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-location {
+    letter-spacing: 0.08rem;
+    font-size: 1.1rem;
+    color: var(--github-primary-text);
+    cursor: context-menu;
+}
+.home-extension {
+    color: var(--github-secondary-text);
+    font-family: 'Space Mono', monospace; 
+}
+
+.home-user-name {
+    transition: all 0.2s;
+}
+.home-user-name:hover {
+    color: var(--github-blue);
+}
+
+.home-feedback {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+.home-feedback > p  {
+    color: var(--github-secondary-text);
+    font-size: 1.1rem;
+    cursor: context-menu;
+    transition: all 0.2s;
+    border-bottom: 1.5px solid transparent;
+    line-height: 1;
+}
+
+.home-feedback > p:hover {
+    color: var(--github-blue);
+    border-bottom: 1.5px solid var(--github-blue);
+}
+
+.home-f-icon {
+    color: var(--github-icon);
+    font-size: 1.6rem;
+}
+
+.home-img {
+    margin: 2rem 0;
+}
+
+.home-img > img {
+    width: 100%;
+}
+
+.home-intro {
+    font-size: 1.3rem;
+    color: var(--github-primary-text);
+    font-weight: 600;
+    text-align: center;
+}
+
+.home-about {
+    margin: 3rem 0;
+    color: var(--github-primary-text);
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+    line-height: 1.8;
+}
