@@ -14,6 +14,7 @@ A GitHub themed developer portfolio website built with React.js and deployed on 
 - [ ] Interactive custom pages and tabs
 
 For other features and themes suggestions, please open an issue.
+
 ---
 
 ### Running the Project
