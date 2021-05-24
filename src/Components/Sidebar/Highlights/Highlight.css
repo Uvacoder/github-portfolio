@@ -24,4 +24,6 @@
     padding: 0.2rem 0.7rem;
     border-radius: 30px;
     border: 1.5px solid var(--github-pro);
+    cursor: context-menu;
+    user-select: none;
 }
