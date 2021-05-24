@@ -41,8 +41,13 @@ class Nav extends React.Component {
           {/* NAVIGATION PRIMARY */}
           <div className="nav-utils">
             <ul className="nav-list">
-              {this.state.navListItems.map((item) => {
-                return <li className="nav-list-item"> {item} </li>;
+              {this.state.navListItems.map((item, index) => {
+                return (
+                  <li className="nav-list-item" key={index}>
+                    {" "}
+                    {item}{" "}
+                  </li>
+                );
               })}
             </ul>
           </div>
