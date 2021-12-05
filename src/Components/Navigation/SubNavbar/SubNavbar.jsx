@@ -39,7 +39,7 @@ const SubNavbar = () => {
     <div className="subnav">
       <div className="subnav-main">
         <img src={img1} alt="Himanshu Khaitan" className="subnav-main-img" />
-        <h3 className="subnav-main-text">himakhaitan</h3>
+        <h3 className="subnav-main-text">uvacoder</h3>
       </div>
       <div className="subnav-sec">
         {tabs.map((tab, index) => (
