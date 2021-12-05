@@ -9,14 +9,14 @@ import { FiMapPin, FiMail } from "react-icons/fi";
 const Bottom = () => {
   return (
     <div className="bottom">
-      <h2 className="bottom-full-name">himanshu khaitan</h2>
-      <p className="bottom-username">himakhaitan</p>
+      <h2 className="bottom-full-name">uvacoder</h2>
+      <p className="bottom-username">uvacoder</p>
       <p className="bottom-caption">Currently at 127.0.0.1 :)</p>
       <div className="bottom-follow">
         <a
           rel="noreferrer"
           target="_blank"
-          href="https://github.com/himakhaitan"
+          href="https://github.com/uvacoder"
         >
           Follow
         </a>
@@ -43,14 +43,14 @@ const Bottom = () => {
         </div>
         <div className="b-contact-element">
           <FiMapPin className="bottom-icon" />
-          <div>India</div>
+          <div>United States</div>
         </div>
         <div className="b-contact-element">
           <FiMail className="bottom-icon" />
           <div>
             <a
               rel="noreferrer"
-              href="mailto:himanshukhaitan10@gmail.com"
+              href="mailto:freeunioncoder@gmail.com"
               target="_blank"
             >
               himanshukhaitan10@gmail.com
@@ -62,10 +62,10 @@ const Bottom = () => {
           <div>
             <a
               rel="noreferrer"
-              href="https://dev.to/hima_khaitan"
+              href="https://dev.to/fu4303"
               target="_blank"
             >
-              https://dev.to/hima_khaitan
+              https://dev.to/fu4303
             </a>
           </div>
         </div>
@@ -86,10 +86,10 @@ const Bottom = () => {
           <div>
             <a
               rel="noreferrer"
-              href="https://www.linkedin.com/in/himanshu-khaitan-431666204/"
+              href="https://www.linkedin.com/in/alecbcampbell/"
               target="_blank"
             >
-              Himanshu Khaitan
+              Alec B Campbell
             </a>
           </div>
         </div>
