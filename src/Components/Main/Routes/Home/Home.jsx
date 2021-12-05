@@ -27,7 +27,7 @@ class Home extends React.Component {
       <div className="home">
         <div className="homa-nav">
           <div className="home-location">
-            <span className="home-user-name">himakhaitan</span>
+            <span className="home-user-name">uvacoder</span>
             <span className="home-extension">/</span>README
             <span className="home-extension">.md</span>
           </div>
@@ -40,7 +40,7 @@ class Home extends React.Component {
           <img src={img1} alt="Hero" />
         </div>
         <div className="home-intro">
-          I'm a computer engineering student 💻 from India who loves to code.
+          I'm a computer engineering student 💻 from US who loves to code.
         </div>
         <Line></Line>
         <div className="home-about">
