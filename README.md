@@ -1,7 +1,7 @@
 ### GitHub Themed Dev Portfolio
 A GitHub themed developer portfolio website built with React.js and deployed on Vercel.
 
-![Dev Portfolio](https://github.com/himakhaitan/github-portfolio/blob/main/public/a.png)
+![Dev Portfolio](./public/screenshot-github-profile.png)
 
 ---
 
